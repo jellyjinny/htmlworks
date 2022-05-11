@@ -1,0 +1,17 @@
+/* 메뉴 스타일 */
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+/* 질문/답변 스타일 */
+table{
+    border: 3px solid #5eff00;
+    border-collapse: collapse;
+    width: 500px;
+    height: 100px;
+}
+th, td{
+    border: 1px solid #c8ff00;
+    text-align: center;
+}

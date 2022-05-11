@@ -1,0 +1,10 @@
+ul li{
+    /* list-style-type: circle; */
+    /* list-style-type: none; (none은 넘버링 or 불릿 제거) */
+    list-style-image: url(../images/dot.png)
+}
+
+ol li{
+    list-style: lower-alpha; /* 소문자 */
+    /* list-style: upper-alpha; = 대문자 */
+}

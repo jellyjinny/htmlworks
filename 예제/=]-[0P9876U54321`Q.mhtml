@@ -1,0 +1,94 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/day02/table2.html
+Subject: =?utf-8?Q?=ED=91=9C=EC=9D=98=20=EC=85=80=20=EB=B3=91=ED=95=A9?=
+Date: Tue, 10 May 2022 06:26:06 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--7Emp6O2RhtUBtDhIuq7lnlNYP24ED6kk7mriKG14cm----"
+
+
+------MultipartBoundary--7Emp6O2RhtUBtDhIuq7lnlNYP24ED6kk7mriKG14cm----
+Content-Type: text/html
+Content-ID: <frame-86AFD134F5B9536B57D276A7F63147FE@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/day02/table2.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-82b11146-4c76-45e6-a938-d6af94348ccc@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-aa55bd5c-65e2-4671=
+-a925-a868716a15aa@mhtml.blink" />
+   =20
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>=ED=91=9C=EC=9D=98 =EC=85=80 =EB=B3=91=ED=95=A9</title>
+   =20
+</head>
+<body>
+    <!-- 2=ED=96=89 3=EC=97=B4=EC=9D=98 =ED=91=9C (=EB=91=90=EB=B2=88=EC=A7=
+=B8 =ED=96=89=EC=9D=98 =EC=97=B4=EC=9D=84 =ED=95=A9=EC=B9=98=EA=B3=A0 =EC=
+=8B=B6=EC=9D=84=EB=95=8C 'colspan'=EC=9D=84 =EC=93=B4=EB=8B=A4. =EC=97=B4=
+=EB=B3=91=ED=95=A9=EA=B8=B0=EB=8A=A5)-->
+    <table>
+        <tbody><tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan=3D"3"></td>
+        </tr>
+    </tbody></table>
+
+    <!-- 2=ED=96=89 3=EC=97=B4=EC=9D=98 =ED=91=9C (=ED=96=89=ED=95=A9=EC=B9=
+=98=EA=B8=B0)-->
+    <table>
+        <tbody><tr>
+            <td rowspan=3D"2"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+</tbody></table>
+<!-- Code injected by live-server -->
+
+</body></html>
+------MultipartBoundary--7Emp6O2RhtUBtDhIuq7lnlNYP24ED6kk7mriKG14cm----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-82b11146-4c76-45e6-a938-d6af94348ccc@mhtml.blink
+
+@charset "utf-8";
+
+table, td { border: 1px solid rgb(204, 204, 204); margin: 20px; }
+
+td { width: 100px; height: 30px; }
+------MultipartBoundary--7Emp6O2RhtUBtDhIuq7lnlNYP24ED6kk7mriKG14cm----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-aa55bd5c-65e2-4671-a925-a868716a15aa@mhtml.blink
+
+@charset "utf-8";
+
+.tb_button { padding: 1px; cursor: pointer; border-right: 1px solid rgb(139=
+, 139, 139); border-left: 1px solid rgb(255, 255, 255); border-bottom: 1px =
+solid rgb(255, 255, 255); }
+
+.tb_button.hover { background-color: rgb(248, 248, 248) !important; }
+
+.ws_toolbar { z-index: 100000; }
+
+.ws_toolbar .ws_tb_btn { cursor: pointer; border: 1px solid rgb(85, 85, 85)=
+; padding: 3px; }
+
+.tb_highlight { background-color: yellow; }
+
+.tb_hide { visibility: hidden; }
+
+.ws_toolbar img { padding: 2px; margin: 0px; }
+------MultipartBoundary--7Emp6O2RhtUBtDhIuq7lnlNYP24ED6kk7mriKG14cm------

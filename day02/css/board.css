@@ -1,0 +1,11 @@
+/* h2{text-align: center;} */
+table{
+    border: 3px solid #5eff00;
+    border-collapse: collapse;
+    width: 500px;
+    height: 100px;
+}
+th, td{
+    border: 1px solid #c8ff00;
+    text-align: center;
+}
