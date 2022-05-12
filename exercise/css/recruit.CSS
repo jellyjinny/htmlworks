@@ -1,14 +1,19 @@
-div h1{
-    width: 800px;
-    height: 70PX;
+body {background-color: rgb(4, 77, 70);}
+#container{
     margin: 0 auto;
-    background: rgb(4, 77, 70);
-    text-align: center;
-    color: #fff; 
+    width: 700px;
+    height: 700PX;
+    padding: 20px;
+    background: #fff url(../images/mic.jpg) no-repeat right
 }
 
+h1 {
+    background
+}
 div h2{
     text-align: center;
     
 }
 
+  text-align: center;
+    color: #fff; 
