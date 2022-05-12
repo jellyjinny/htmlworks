@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>블록 레벨 요소</title>
+    <style>
+        nav{width: 300px;}
+        ul{list-style: none; padding: 30px;}
+        ul li{
+            border: 1px solid #222;
+            padding: 20px 40px;
+            /* (순서 : top, right, bottom, left) */
+        }
+        ul li a{text-decoration: none; color: #000;}
+        ul li:hover{background: #eee;}
+        /* 마우스가 해당 부분에 올려지면 칸, 부분의 배경 색이 바뀌는 기능 */
+        ul li a:hover{color: #f00;}
+        /* 마우스가 해당 글자에 올려지면 글자의 색이 바뀌는 기능 */
+    </style>
+</head>
+<body>
+    <h1>ABC 주식회사</h1>
+    <nav>
+        <ul>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">도서</a></li>
+            <li><a href="#">자료실</a></li>
+            <li><a href="#">동영상 강의</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

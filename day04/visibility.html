@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인라인 레벨 요소</title>
+    <style>
+        div{
+            width: 1000px;
+            border: 1px solid #ccc;
+        }
+        .pic1{display: none;} /* 자리 차지하지 않고 그림을 생략시키고 싶을때 */
+             /* .pic{display: block;}  */  /* 보이게 하고싶을때 */
+        .pic2{visibility: hidden;} /* 자리는 확보하고 안보이게만 하고싶을때 */
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./images/bear.jpg">
+        <img src="./images/cat.jpg"class="pic1">
+        <img src="./images/photo.jpg">
+    </div>
+    <div>
+        <img src="./images/bear.jpg">
+        <img src="./images/cat.jpg"class="pic2">
+        <img src="./images/photo.jpg">
+    </div>
+</body>
+</html>
