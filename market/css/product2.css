@@ -1,0 +1,64 @@
+#container{
+    width: 800px;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* 메뉴 스타일 */
+nav{margin-bottom: 20px;}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+/* 레드향 소개 스타일 */
+div{
+    width: 700px;
+    border: 1px solid #333;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#description{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#package{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#tbl_package{
+    width: 400px;
+    border-collapse: collapse;
+}
+#tbl_package th, #tbl_package td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* 질문/답변 스타일 */
+#tbl_board{
+    border: 3px solid #5eff00;
+    border-collapse: collapse;
+    width: 500px;
+    height: 80px;
+}
+#tbl_board th, #tbl_board td{
+    border: 1px solid #c8ff00;
+    text-align: center;
+}
+
+/*로그인 스타일*/
+.tbl_login{
+    width: 300px;
+    height: 20px;
+}
+.tbl_login td{
+    width: 150px;
+    height: 30px;
+}

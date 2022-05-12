@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> radio & checkbox button </title>
+    <!-- input태그 - 체크박스 버튼(radio & checkbox button)에 관하여 -->
+
+    <style>
+        form{
+            width: 600px;
+            margin: 50px auto;
+        }
+        fieldset{
+            margin: 20px ;
+        }
+        button{margin-left: 20px;}
+    </style>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>신청 과목</legend>
+            <p>이 달에 신청할 과목을 선택하세요(1과목만 가능)</p>
+            <label>
+            <input type="radio" name="subject">회화
+            </label>
+            <label>
+                <input type="radio" name="subject">문법
+            </label>
+            <label>
+                <input type="radio" name="subject">작문
+            </label>
+            <!-- radio버튼들의 name은 같아야 한다 -->
+            </fieldset>
+
+        <fieldset>
+            <legend>메일링</legend> 
+            <!-- <h>000</h>로 넣게되면 글자들이 박스 밖에, <legend></legend>로 넣게 되면 박스 선 중간에 나타난다.-->
+            <p>메일로 받고 싶은 뉴스 주제를 선택해 주세요(복수 선택 가능)</p>
+            <label>
+                <input type="checkbox" name="mailing1" value="news">해외 단신
+            </label>
+            <label>
+                <input type="checkbox" name="mailing1" value="dialog">5분 회화
+            </label>
+            <label>
+                <input type="checkbox" name="mailing1" value="pops">모닝 팝스
+            </label>
+        </fieldset>
+        <button type="submit">전송</button>
+        <!-- 또는 <input type="submit" value="전송"> -->
+    </form>
+</body>
+</html>

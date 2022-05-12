@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여러줄 입력 textarea 태그</title>
+    <style>
+        form{
+            width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>배송업무</legend>
+            <textarea name="memo" cols="40" rows="5"
+                    placeholder="배송시 요청 사항을 적어주세요"></textarea> 
+            <!-- 'cols="40" rows="5"'는 영문으로 가로 40자, 세로 5줄 쓸 수 있다는 의미 -->
+            <!-- placeholder는 힌트? 메모? 안내? 문구 -->
+            <!-- 주의! <textarea></textarea>의 태그 사용 시 <textarea의 닫는 태그와 </textarea>는 붙여서 써야 한다.
+                줄 내리려면 <textarea 내용 중간에서 줄바꿈 해준다 -->
+        </fieldset>
+    </form>
+</body>
+</html>

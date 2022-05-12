@@ -3,17 +3,17 @@
 
 #container{
     width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto; /*최상단으로부터 얼만큼 떨어뜨리는지*/
     border: 1px solid #ccc;
 }
 nav{
-    width: 100%;
+    width: 100%; /* #container 에서 width대신 몇 % 쓰는지*/
     height: 80px;
     background: #069;    
 }
 nav ul{
-    list-style: none;
-    text-align: right;
+    list-style: none; /* 불릿 제거 */
+    text-align: right; /* 기본값은 left로 되있음. */
     margin-right: 50px;
 }
 nav ul li{
@@ -23,17 +23,24 @@ nav ul li{
     /* inline ~ line-height로도 가능하다 */
 }
 nav ul li a{
-    text-decoration: none;
-    color: #fff;
+    text-decoration: none; /*밑줄 제거*/
+    color: #fff; /* 글씨 색상 */
 }
 nav ul li a:hover{
     color: #ff0;
 }
 
 section{
-    width: 100%;
+    width: 997px;
     height: 800px;
+    border: 1px solid #ccc;    
 }
 section h1{
     margin: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
 }
