@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position - absolute 속성</title>
+    <style>
+        .box1{
+            width: 500px; 
+            height: 500px;
+            border: 2px solid #ccc;
+            margin: 30px auto;
+            /* 부모요소가 기준이 된다 */
+            position: relative;
+        }
+        .box2{
+            width: 100px; 
+            height: 100px;
+            background: orange;
+            position: absolute;
+            bottom: 0;
+            left: 100px;
+            /* left: -100px; 으로 했더니 개체가 밖으로 나옴.
+               left: -50px; 으로 했더니 개체가 원 개체 몸통과 반이 걸림.  */
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="box2"></div>
+    </div>
+</body>
+</html>
