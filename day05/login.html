@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 폼</title>
+    <style>
+        ul{list-style: none;}
+        ul li{margin: 20px 0;}
+        h2{padding-left: 20px;}
+        label{width: 80px; float: left;}
+        /* label에 크기를 주면 배치가 가능함 */
+        /* input[type="text"], input[type="password"]{width: 80px; height: 30px;} */
+        input{width: 150px; height: 25px;}
+        input[type="submit"]{width: 80px; height: 30px;}
+    </style>
+</head>
+<body>
+    <h2>로그인</h2>
+    <!-- method는 생략할 수 없음 -->
+    <form action="loginProcess.jsp" method="post">
+        <ul>
+            <li>
+            <label>아이디</label> 
+            <input type="text" name="userid" required>
+            <!-- required 설정하면 빈칸에 미입력 시 창이넘어가는 대신 입력해달라는 팝업이 뜸 -->
+            </li>
+            <li>
+            <label>비밀번호</label> 
+            <input type="password" name="passwd">
+            </li>
+            <li>
+            <input type="submit" value="로그인">
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
