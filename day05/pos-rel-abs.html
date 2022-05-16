@@ -18,20 +18,30 @@
             background: #00f;
             position: absolute;
         }
-        #coord1{top: 0; left: 0;}
+        .coord1{top: 0; left: 0}  /* ';'는 뒤에 무언거를 더 쓸때만 쓰면 된다. 마지막에는 안씀 */
+        .coord2{top: 0; right: 0}
+        .coord3{bottom: 0; left: 0}
+        .coord4{bottom: 0; right: 0}
+        .coord5{bottom: 150px; right: 100px}
+        /* #coord1{top: 0; left: 0;}
         #coord2{top: 0; right: 0;}
         #coord3{bottom: 0; left: 0;}
         #coord4{bottom: 0; right: 0;}
-        #coord5{bottom: 150px; right: 100px;}
+        #coord5{bottom: 150px; right: 100px;} */
     </style>
 </head>
 <body>
     <div id="wrap">
-        <div class="box" id="coord1"></div>
+        <div class="box coord1"></div>
+        <div class="box coord2"></div>
+        <div class="box coord3"></div>
+        <div class="box coord4"></div>
+        <div class="box coord5"></div>
+        <!-- <div class="box" id="coord1"></div>
         <div class="box" id="coord2"></div>
         <div class="box" id="coord3"></div>
         <div class="box" id="coord4"></div>
-        <div class="box" id="coord5"></div>
+        <div class="box" id="coord5"></div> -->
     </div>
 </body>
 </html>

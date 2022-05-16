@@ -1,0 +1,20 @@
+*{margin: 0; padding: 0; }
+#container{width: 1200px; margin: 0 auto;}
+
+/* header 영역 */
+header{height: 80px; background: rgb(0, 59, 0);}
+header #logo{width: 300px; float: left; padding: 15px 30px;}
+header #logo a{color: yellow; text-decoration: none;}
+header nav{width: 800px; float: right;}
+header #topMenu{list-style: none; text-align: right; 
+    margin-right: 50px; padding: 15px 20px;}
+header #topMenu li{display: inline-block; margin: 15px;}
+header #topMenu li a{color: #fff; text-decoration: none;}
+
+/* index 스타일 */
+#contents{width: 1000px; margin: 30px auto;}
+#contents section div{margin: 30px 10px;}
+#contents section p{line-height: 2;}
+#contents #healing img, #activity img{float: left; margin-right: 20px;
+    border-radius: 20px;}
+#contents #healing, #activity{height: 300px;}
