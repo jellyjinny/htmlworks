@@ -1,0 +1,6 @@
+@charset "utf-8";
+.btxt{color: red;}
+.ctxt{color: blue;}
+/* .atxt{font-weight: bold;} 
+   bold대신 아래처럼 숫자를 넣을 수 있다. 700 이상은 넣어야 한다.*/
+.atxt{font-weight: 700;}

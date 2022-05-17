@@ -1,0 +1,14 @@
+.container{width: 960px; margin: 0 auto;}
+nav{height: 80px; }
+nav ul{list-style: none; border-bottom: 2px solid #ccc;
+        padding: 10px 0; text-align: center;}
+nav ul li{display: inline-block; margin: 10px 20px;}
+/* nav a와 같은 코드이다 */
+nav a:link, a:visited{text-decoration: none; color: #000; 
+    padding: 10px;}
+/* focus-탭키를 눌렀을때 작용 */
+nav a:hover, a:focus{background: #000; color: #fff;}
+/* :active - 마우스를 클릭했을때 */
+nav a:active{background: #f00;}
+/* 가상클래스 선택자 기입 시 순서가 있다.
+ link / visited / hover / active / focus 순서 */
