@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition 속성</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background: orange;
+            position: absolute;
+            top: 100px;
+            left: 200px;
+            transition-property: width, height, transform;
+            transition-duration: 1s, 0.5s, 1.5s;
+            /* 만일 전부 1초로 설정한다면
+                transition: all 1s; */
+            transition: all 1s ease-in;
+            
+            /*transition: all 1s ease-in;
+               ease-in은 시작을 느리게 하고, ease-out은 끝을 느리게 함 
+               ease-in-out은 느리게 시작하고 느리게 끝난다.*/
+        }
+        .box:hover{
+            width: 200px;
+            height: 150px;
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

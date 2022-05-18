@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform: rotate 예제</title>
+    <style>
+        div{
+            width: 200px;
+            border: 5px solid #0f0;
+            padding: 10px; 
+        }
+        .box1{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+        .box1:hover{
+            -webkit-transform: rotate(-90deg); /*크롬 브라우저 지원 접두사(prefix)*/
+            -ms-transform: rotate(-90deg); /*인터넷 익스플로러 브라우저 지원 접두사*/
+            -moz-transform: rotate(-90deg); /*파이어폭스 브라우저 지원 접두사*/
+            transform: rotate(-90deg);
+        }
+        .box2{
+            position: absolute;
+            top: 300px;
+            left: 300px;
+        }
+        .box2:hover{
+            -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+            -moz-transform: scale(0.8);
+            transform: scale(0.8); /*마우스 가져다 대면 크기가 변함. 이 경우 줄어듬*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <h1>Mouse Over</h1>
+    </div>
+    <div class="box2">
+        <h1>Mouse Over</h1>
+    </div>
+</body>
+</html>
