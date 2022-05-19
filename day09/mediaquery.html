@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미디어 쿼리</title>
+    <style>
+        div{
+            width: 100%;
+            margin: 0 auto;
+            border: 10px solid#ccc;
+            text-align: center;
+        }
+        
+        @media screen and (min-width:800px){
+            /* min-width:800px = 화면을 800px 이상 늘리면 div 숨기기 */
+            /* max-width:800px = 화면을 800px 이상 늘리면 div 보이기 */
+            div{display: none;}
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Responsive Web(반응형웹)</h1>
+    </div>
+</body>
+</html>
