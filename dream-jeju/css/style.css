@@ -1,62 +1,76 @@
-*{margin: 0; padding: 0; }
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+/* 구글 웹폰트 */
+*{margin: 0; padding: 0;}
 #container{width: 100%; margin: 0 auto;}
-main{width: 1000px; margin: 50px auto;}
+main{width: 1000px; margin: 30px auto;}
 
 /* header 영역 */
-header{height: 80px; background: rgb(0, 59, 0);}
-#logo{width: 300px; float: left; padding: 15px 30px;}
-#logo a{color: yellow; text-decoration: none;}
-nav{width: 800px; float: right;}
-#topMenu{list-style: none; text-align: right; 
-    margin-right: 50px; padding: 15px 20px;}
-#topMenu li{display: inline-block; margin: 10px 20px;}
-#topMenu li a{color: #fff; text-decoration: none;}
-#topMenu li a:hover{color: yellow;}
+header{height: 80px; background-color: rgb(2, 120, 136);}
+header #logo{width: 300px; float: left; padding: 15px 30px;}
+header #logo h1{font-family: Merienda;}
+header #logo a{text-decoration: none; color: yellow;}
+header nav{width: 800px; float: right}
+header nav #topMenu{list-style: none; text-align: right; margin-right: 50px; padding: 15px 20px;}
+header nav #topMenu li{display: inline-block; margin: 15px;}
+header nav #topMenu a{text-decoration: none; color: white; font-size: 1.1em;}
+header nav #topMenu a:hover{text-decoration: none; color: #2fb2fd;}
 
 /* index 스타일 */
+/* #main{min-height: calc(100vh - 180px);} */
 /* #contents{width: 1000px; margin: 30px auto;} */
-#healing, #activity{margin: 30px 10px;}
-#contents h2{margin-bottom: 20px;}
+#contents section{margin: 30px 10px;}
+#contents section div{margin: 30px 10px;}
 #contents p{line-height: 2;}
-#healing img, #activity img{float: left; margin-right: 20px;
-    border-radius: 20px;}
-#healing, #activity{height: 300px;}
-#healing .schedule ul li{list-style: none; margin: 0 5px;}
-#healing h3{margin-top: 20px 0 10px;}
-#sightseeing ul li{margin: 10px 30px;}
-#sightseeing ul li a{text-decoration: none;}
-footer{width: 1000px; margin: 30px auto;
-        border-top: 2px solid #222;}
-#bottomMenu{list-style: none; margin-left: 10px 10px 10px 30px;}
-#bottomMenu li{display: inline-block; margin: 10px 0;
-    border-right: 1px solid #aaa; padding: 0 10px;}
-#bottomMenu li:last-child{border: none;}
-#bottomMenu li a{text-decoration: none; color: #333;}
+#contents #healing, #activity{height: 300px;}
+#contents #healing img, #activity img{float: left; margin-right: 30px; border-radius: 20px;}
+#contents .schedule ul li{list-style: none; margin: 10px;}
+#contents #sightseeing ul li{margin: 10px 30px; list-style: square;}
+#contents #sightseeing ul a{text-decoration: none; color: #000;}
+#contents #sightseeing ul li a:hover{text-decoration: underline;}
 
 /* product 스타일 */
 /* #product{width: 1000px; margin: 30px auto;} */
-#product p, li{line-height: 2;}
-#product h2{margin: 10px;}
-#description{width: 800px; margin: 0 auto; border: 1px solid #ccc;
-    padding: 20px 60px; margin-bottom: 20px;
-    border-top-left-radius: 30px; border-top-right-radius: 30px;}
-#description img{border-radius: 5px; margin: 10px;}
-#receipe{width: 800px; margin: 0 auto; border: 1px solid #ccc;
-    padding: 20px 60px; margin-bottom: 20px;}
-#receipe ol{padding-left: 20px;}    
-#package{width: 800px; margin: 0 auto; border: 1px solid #ccc;
-    padding: 20px 60px; margin-bottom: 20px;
-    border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;}
-#product table, th,td{border: 1px solid #ccc;
-    border-collapse: collapse; padding: 10px 20px;}
+/* #product h2{margin: 10px 0;} */
+#product p{line-height: 2em;}
+#product #description{border: 1px dotted #333; border-top-left-radius: 30px;
+  border-top-right-radius: 30px; padding: 20px 60px; margin-bottom: 20px;}
+#product #description img{margin: 10px; border-radius: 5px;}
+#product #receipe{border: 1px dotted #333; padding: 20px 60px; margin-bottom: 20px;}
+#product #receipe ol{padding-left: 20px; margin-top: 10px;}
+#product #receipe ol li{line-height: 2em;} 
+#product #package{border: 1px dotted #333; border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px; padding: 20px 60px; margin-bottom: 20px;}
+#product table, th, td{border: 1px solid #ccc; border-collapse: collapse; padding: 10px 20px;}
 
-/* board 스타일 */
-#board #QA{height: 800px;}
-#board h2{margin: 30px 10px;}
-#tbl_board{width: 800px; border-collapse: collapse;}
-#tbl_board th td{border: 1px solid#ccc;}
-#tbl_board thead{background: #eee;}
+/* q & a 스타일 */
+#board{min-height: calc(100vh - 180px);}
+#board section h2{margin: 30px 10px;}
+#board #tbl_board{border: 1.5px solid #016801; border-collapse: collapse; 
+    margin: 0 50px; width: 800px; height: 80px;}
+#board #tbl_board th, #tbl_board td{border: 1px solid #016801; text-align: center;}
+#board #tbl_board thead{background: #eee;}
 
-/* aboutme 스타일 */
-#intro div img{width: 100px; height: 150px;}
-#trip h3{margin-left: 100px;}
+/* About Me 스타일 */
+/* #profile{width: 1000px; margin: 30px auto; } */
+#profile section{margin: 30px 10px;}
+#profile section h2{margin: 20px; color: blue;}
+#profile section div{margin: 30px 10px;}
+#profile ul li{margin: 16px 50px;}
+#profile #intro{height: 350px;}
+#profile #intro h1{font-size: 2em;}
+#profile #intro p{line-height: 1.8em;}
+#profile #intro img{float: left; margin-right: 30px; border-radius: 5px;}
+#profile #intro a{text-decoration: none; color: #00f;}
+#profile #intro a:hover{text-decoration: underline;}
+#profile #career ul li:nth-child(1){color: #f00;}
+/* #profile #career ul li:nth-of-type(1){color: #f00;} */
+#profile #skill ul li a{text-decoration: none; color: #00f;}
+#profile #skill ul li a:hover{text-decoration: underline; }
+
+/* footer 영역 */
+footer{width: 1000px; height: 100px; margin: 0 auto; border-top: 2px solid #222}
+footer #bottomMenu{list-style: none; margin: 10px 10px 10px 50px;}
+footer #bottomMenu li{display: inline-block; margin: 10px 0; 
+  border-right: 1px solid #ccc; padding: 0 15px;}
+footer #bottomMenu li a{text-decoration: none; color: #444;}
+footer #bottomMenu li:last-child{border: none;}
